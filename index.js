@@ -1,7 +1,6 @@
 require('dotenv').config();
-
-import express from 'express';
-import exampleRoute from './routes/ExampelRoute';
+const express = require('express');
+const exampleRoute = require('./routes/ExampelRoute');
 
 const app = express();
 
